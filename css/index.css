@@ -86,7 +86,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    border: 0;
+    /*border: 0;*/
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -326,3 +326,19 @@ nav a {
 .lambdaImage {
     margin-left: 4%;
 }
+
+
+/* About_page styling */
+
+.container-about-page {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid green;
+}
+
+.topSection {
+    margin-bottom: 3%;
+}
+
+
+/*middle section with images */
