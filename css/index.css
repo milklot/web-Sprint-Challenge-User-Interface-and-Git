@@ -291,11 +291,35 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 10 px solid red;
+    border: 10 px solid greenyellow;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 81%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav {
-    border: 3 px solid red;
     display: flex;
     justify-content: stretch;
+}
+
+nav a {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+.road {
+    margin-bottom: 2%;
 }
