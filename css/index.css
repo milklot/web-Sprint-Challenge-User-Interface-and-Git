@@ -345,7 +345,6 @@ nav a {
 .container-about-page {
     display: flex;
     flex-direction: column;
-    border: 3px solid green;
     margin: 4%;
     width: 92%;
 }
@@ -360,18 +359,12 @@ nav a {
 
 .topSection {
     display: flex;
-    border: 3px solid yellow;
     margin-top: 2%;
-    margin-bottom: ;
-    border-bottom: 3px dashed aqua;
-    border-top: 3px dashed aqua;
 }
 
 .botSection {
     display: flex;
-    border: 3px solid red;
-    border-bottom: 3px dashed aqua;
-    border-top: 3px dashed aqua;
+    border-bottom: 1px dashed black;
 }
 
 .cont1,
@@ -382,10 +375,12 @@ nav a {
     padding: 2%;
     padding-right: 2%;
     margin-top: 2%;
+    border-top: 1px dashed black;
 }
 
 button {
     display: flex;
+    margin: 3%;
     padding: 2% 8%;
     font-size: 15px;
     border-radius: 10px;
@@ -394,4 +389,5 @@ button {
 
 .bottomSection {
     margin: 5% 0;
+    padding: 1%;
 }
